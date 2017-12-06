@@ -10,31 +10,32 @@
 \setlength{\columnsep}{0.25in}
 
 \begin{document}
-\title{Write the Title Here}
+\title{Report of Vulnerability Scanner}
 
-\author{Your Name Here\\
+\author{Obiora Akitekwe, Naiwei Liu, Jin Han\\
         Department of Computer Science\\
         University of Texas at San Antonio\\
-        San Antonio, TX 78249\\
-        youremail@cs.utsa.edu}
+        San Antonio, TX 78249}
 
-\date{ }
+\date{Nov 26, 2017}
 \maketitle 
 
 \begin{abstract}
 Write the abstract here.
 \end{abstract}
 
-\section{Introduction}
-This is how you write your sections.
+\input{tex/intro}
 
-\section{Another Section}
-latex will number the sections automatically for you.
+\input{tex/nessus}
 
-To cite a paper use the cite comment. For example, This
-idea is introduced in~\cite{tosuncikm2002}. You can also
-cite multiple papers at once as shown 
-in~\cite{tosunicme2000,tosuncikm2002,tosunitcc2001,tosunMM01}
+\input{tex/evaluation}
+
+\input{tex/comparison}
+
+\input{tex/conclusion}
+
+
+
 
 \bibliography{tosun}
 \bibliographystyle{plain}
